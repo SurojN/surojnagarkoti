@@ -14,7 +14,8 @@ export default function ShowcaseIntro() {
           transition={{ duration: 0.8 }}
           className="text-4xl md:text-6xl font-bold tracking-tight"
         >
-          Hi, I'm <span className="text-indigo-400">Suroj Nagarkoti</span>
+          <span>Hi, I&apos;m Suroj </span>
+          <span className="text-indigo-400">Suroj Nagarkoti</span>
         </motion.h1>
 
         <motion.p
