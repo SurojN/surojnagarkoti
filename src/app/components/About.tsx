@@ -6,7 +6,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="bg-white dark:bg-gray-950 text-gray-800 dark:text-white py-20 px-6"
+      className="bg-white dark:bg-gray-950 text-gray-800 dark:text-white py-5 px-6"
     >
       <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-10 items-center">
         <motion.div
@@ -34,13 +34,33 @@ export default function About() {
         >
           <ul className="space-y-4 text-md">
             <li>
-              <strong>📍 Location:</strong> Lalitpur, Nepal
+              <strong>📍 Location:</strong>{" "}
+              <a
+                href="https://www.google.com/maps/place/Lalitpur,+Nepal"
+                className="text-blue-300 hover:underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Lalitpur, Nepal
+              </a>
             </li>
             <li>
-              <strong>📧 Email:</strong> surojnagarkoti@gmail.com
+              <strong>📧 Email:</strong>{" "}
+              <a
+                href="mailto:surojnagarkoti@gmail.com"
+                className="text-blue-300 hover:underline"
+              >
+                surojnagarkoti@gmail.com
+              </a>
             </li>
             <li>
-              <strong>📞 Phone:</strong> +977 9841959785
+              <strong>📞 Phone:</strong>{" "}
+              <a
+                href="tel:+977 9841959785"
+                className="text-blue-300 hover:underline"
+              >
+                +977 9841959785
+              </a>
             </li>
             <li>
               <strong>🎓 Education:</strong> Geomatics Engineering

@@ -8,8 +8,10 @@ import ContactSection from "./components/Contact";
 export default function Home() {
   return (
     <>
-      <ShowcaseIntro />
-      <AboutMe />
+      <div className="grid grid-cols-1 md:grid-cols-2 p-7 md:p-10">
+        <ShowcaseIntro />
+        <AboutMe />
+      </div>
       <SkillsSection />
       <ProjectsSection />
       <ExperienceTimeline />

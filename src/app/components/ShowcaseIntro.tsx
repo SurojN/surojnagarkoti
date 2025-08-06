@@ -2,11 +2,18 @@
 
 import { motion } from "framer-motion";
 import { ArrowDown } from "lucide-react";
-import Link from "next/link";
+import Image from "next/image";
 
 export default function ShowcaseIntro() {
+  const scrollToProjects = () => {
+    const section = document.getElementById("projects");
+    if (section) {
+      section.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
-    <section className="min-h-screen flex items-center justify-center bg-gradient-to-br from-gray-900 to-black text-white px-6">
+    <section className="p-5 flex items-center justify-center bg-gradient-to-br from-gray-900 to-black text-white px-6">
       <div className="max-w-4xl text-center space-y-6">
         <motion.h1
           initial={{ opacity: 0, y: -50 }}
@@ -14,6 +21,14 @@ export default function ShowcaseIntro() {
           transition={{ duration: 0.8 }}
           className="text-4xl md:text-6xl font-bold tracking-tight"
         >
+          <Image
+            src="/selfpic.jpg"
+            alt="self picture"
+            className="w-32 h-32 rounded-full mx-auto mb-4"
+            width={130}
+            height={130}
+          />
+
           <span>Hi, I&apos;m </span>
           <span className="text-indigo-400">Suroj Nagarkoti</span>
         </motion.h1>
@@ -33,12 +48,12 @@ export default function ShowcaseIntro() {
           animate={{ opacity: 1 }}
           transition={{ delay: 0.6 }}
         >
-          <Link
-            href="#projects"
+          <button
+            onClick={scrollToProjects}
             className="inline-flex items-center gap-2 bg-indigo-500 hover:bg-indigo-600 text-white px-6 py-3 rounded-full text-lg font-semibold transition"
           >
             View My Work <ArrowDown size={18} />
-          </Link>
+          </button>
         </motion.div>
       </div>
     </section>
