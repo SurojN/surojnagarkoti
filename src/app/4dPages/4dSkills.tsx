@@ -7,7 +7,6 @@ import {
   Server,
   Database,
   Wrench,
-  Bug,
   Paintbrush,
   Cloud,
   Globe,

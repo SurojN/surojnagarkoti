@@ -1,7 +1,6 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { desc } from "framer-motion/client";
 
 const projects = [
   {

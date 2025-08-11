@@ -54,19 +54,19 @@ const VortexPages: FC = () => {
 
   const pageContents = [
     // Page 0: ShowcaseIntro and AboutMe side by side
-    <ShowcaseIntro />,
-    <About />,
+    <ShowcaseIntro key={"intro"} />,
+    <About key={"about"} />,
 
     // Page 1:
-    <SkillsSection />,
+    <SkillsSection key={"skills"} />,
 
     // Page 2:
-    <ProjectsSection />,
+    <ProjectsSection key={"projects"} />,
 
     // Page 3:
     <>
-      <ExperienceTimeline />
-      <ContactSection />
+      <ExperienceTimeline key="experience" />
+      <ContactSection key="contact" />
     </>,
   ];
 
