@@ -30,7 +30,7 @@ export default function ExperienceTimeline() {
   return (
     <section
       id="experience"
-      className="py-20 px-6 bg-[#000014] text-[#9bdcffcc] min-h-[500px]"
+      className="py-20 px-6 bg-transparent text-[#9bdcffcc] min-h-[500px]"
     >
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl font-extrabold mb-12 text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-purple-400 to-pink-500 drop-shadow-[0_0_15px_rgba(147,197,253,0.9)] text-center">

@@ -6,7 +6,7 @@ export default function About() {
   return (
     <section
       id="about"
-      className="bg-[#000014] text-[#9bdcffcc] py-10 px-6 min-h-[450px]"
+      className="bg-transparent text-[#9bdcffcc] py-10 px-6 min-h-[450px]"
     >
       <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-10 items-center">
         <motion.div

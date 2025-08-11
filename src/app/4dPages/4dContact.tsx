@@ -6,7 +6,7 @@ export default function ContactSection() {
   return (
     <section
       id="contact"
-      className="py-6 px-6 bg-[#000014] text-indigo-400"
+      className="py-6 px-6 bg-transparent text-indigo-400"
       style={{ boxShadow: "inset 0 0 40px #4f46e5cc" }}
     >
       <div className="max-w-4xl mx-auto">

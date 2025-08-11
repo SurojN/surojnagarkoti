@@ -5,7 +5,7 @@ import Image from "next/image";
 
 export default function ShowcaseIntro() {
   return (
-    <section className="flex flex-col items-center justify-center text-center px-6 py-12 bg-gradient-to-br from-[#000014] to-[#0a001e] min-h-[400px]">
+    <section className="flex flex-col items-center justify-center text-center px-6 py-12 bg-transparent min-h-[400px]">
       <motion.div
         initial={{ opacity: 0, y: -30 }}
         animate={{ opacity: 1, y: 0 }}

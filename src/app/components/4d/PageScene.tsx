@@ -68,18 +68,8 @@ const PageScene: FC<PageSceneProps> = ({ index, children }) => {
           userSelect: "text",
           color: "white",
           padding: "2rem",
-          boxSizing: "border-box",
           opacity: 0.9,
-          // Remove box-like feel:
-          backgroundColor: "transparent",
           border: "none",
-          // Add subtle glow to text instead of box shadow
-          textShadow: `
-      0 0 6px rgba(147, 197, 253, 0.8),
-      0 0 20px rgba(79, 70, 229, 0.6)
-    `,
-          // Optionally use backdrop blur for glassy effect if you want some subtle background
-          backdropFilter: "blur(10px)",
         }}
       >
         {children}

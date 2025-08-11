@@ -74,11 +74,9 @@ const VortexPages: FC = () => {
     <div
       style={{
         width: "100%",
-        height: "95vh",
+        height: "100vh",
         position: "relative",
         overflow: "hidden",
-        backgroundColor: "#000014",
-        top: "5vh", // Adjust to fit the header
       }}
     >
       <Canvas camera={{ position: [0, 0, 5], near: 0.1, far: 1000 }}>

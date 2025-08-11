@@ -37,7 +37,7 @@ export default function SkillsSection() {
   return (
     <section
       id="skills"
-      className="py-10 px-6 bg-[#000014] text-indigo-400 overflow-hidden"
+      className="py-10 px-6 bg-transparent text-indigo-400 overflow-hidden"
       style={{
         boxShadow: "inset 0 0 50px #4f46e5cc",
       }}
